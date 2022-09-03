@@ -9,23 +9,21 @@
     color: white;
     padding: 25vh 50px 50px 40px;
     width: 300px;
-  }
-
-  &__info > button {
-    margin-top: 1rem;
-    background-color: #ff7779;
-    text-transform: inherit;
-    font-weight: 600;
-    color: white;
-    border-color: #ff7779;
-  }
-
-  &__info > button:hover {
-    background-color: white;
-    color: #ff7779;
-  }
-
-  &__info > h5 {
-    margin-top: 1rem;
+    button {
+      margin-top: 1rem;
+      background-color: #ff7779;
+      text-transform: inherit;
+      font-weight: 600;
+      color: white;
+      border-color: #ff7779;
+    }
+    button:hover {
+      background-color: white;
+      color: #ff7779;
+      border-color: white;
+    }
+    h5 {
+      margin-top: 1rem;
+    }
   }
 }
