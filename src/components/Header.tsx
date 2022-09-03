@@ -4,6 +4,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Avatar } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import Button from "@mui/material/Button";
 
 export default function Header() {
   return (
@@ -20,10 +21,16 @@ export default function Header() {
       </div>
 
       <div className="header__right">
-        <p>Become a host</p>
-        <LanguageIcon />
-        <ExpandMoreIcon />
-        <Avatar />
+        <Button variant="outlined">Become a Host</Button>
+        <Button>
+          <LanguageIcon />
+        </Button>
+        <Button>
+          <ExpandMoreIcon />
+        </Button>
+        <Button>
+          <Avatar />
+        </Button>
       </div>
     </div>
   );
