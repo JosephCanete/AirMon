@@ -6,7 +6,7 @@ export default function Banner() {
   return (
     <div className="banner">
       <div className="banner__search">
-        {/* <Button>Search Dates</Button> */}
+        <Button variant="outlined">Search Dates</Button>
       </div>
       <div className="banner__info">
         <Typography variant="h5">
